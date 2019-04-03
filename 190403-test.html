@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    .container {
+      width: 1200px;
+      height: 600px;
+      border: 1px solid #f00;
+      text-align: right;
+    }
+    .wrap {
+      margin-right: 40px;
+      width: 400px;
+      background-color: #faa;
+      display: inline-block;
+      vertical-align: middle;
+      text-align: left;
+    }
+    .container:before{
+      content: '';
+      /* width: 10px; */
+      background-color: #aaa;
+      height: 100%;
+      width: 0;
+      vertical-align: middle;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="wrap">
+      <h2>title</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis illo, eligendi delectus repellat rem corporis sed, impedit quia autem consequatur saepe non odio molestiae atque, ipsam animi possimus quos perspiciatis.</p>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>float</title>
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    .container {
+      width: 960px;
+      background-color: blanchedalmond;
+      margin: auto;
+    }
+
+    .col {
+      width: 200px;
+      margin: 10px;
+      padding: 10px;
+      border: 6px solid #000;
+      background-color: #ccc;
+      float: left;
+    }
+
+    .col img {
+      width: 100%;
+    }
+
+    .clear-box {
+      clear: both;
+      height: 0px;
+    }
+
+  </style>
+</head>
+<body>
+    <div class="container">
+      <div class="col">
+        <img src="https://api.fnkr.net/testimg/250x150/00CED1/FFF/?text=img+placeholder">
+        <h3>title</h3>
+        <p>Lo</p>
+      </div>
+      <div class="col">
+        <img src="https://api.fnkr.net/testimg/250x150/00CED1/FFF/?text=img+placeholder">
+        <h3>title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt inventore explicabo, commodi soluta, deleniti doloremque. Eveniet laudantium tempora sit aut accusantium qui cupiditate explicabo odio quaerat. Dolorum sit, doloremque nostrum!</p>
+      </div>
+      <div class="col">
+        <img src="https://api.fnkr.net/testimg/250x150/00CED1/FFF/?text=img+placeholder">
+        <h3>title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore rem natus porro ducimus pariatur, minus id quo itaque, fuga voluptates. Deleniti harum totam dolorem possimus eius voluptate ea quis deserunt.</p>
+      </div>
+      <div class="clear-box"></div>
+    </div>
+</body>
+</html>

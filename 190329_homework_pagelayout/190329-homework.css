@@ -1,0 +1,290 @@
+    * {
+      margin: 0;
+      padding: 0;
+      /* font-family: sans-serif; */
+    }
+    .fixed-container {
+      width: 1200px;
+      margin: auto;
+    }
+    .head-full-backgroundimg {
+      background: url("assets/asset 36.jpeg") no-repeat;
+      background-size: cover;
+      background-position: center;
+      /* min-height: 30vw; */
+    }
+    .mid-fruits-bgimg {
+      background: url("assets/asset 37.jpeg") no-repeat;
+      background-size: cover;
+      background-position: center;
+      min-height: 450px;
+      margin-bottom: 20px;
+      padding: 100px;
+    }
+    .blog-img {
+      background: url("assets/asset 38.jpeg") no-repeat;
+      background-size: cover;
+      min-height: 300px;
+      margin-bottom: 20px;
+      padding: 100px 0;
+      text-align: center;
+    }
+    .blog-img .pd-img {
+      width: 300px;
+      box-sizing: border-box;
+    }
+    .text-center {
+      text-align: center;
+      font-family: cursive;
+      margin: 50px;
+    }
+    .mid-fruits-align-center {
+      margin: auto;
+      text-align: center;
+      color: #363636;
+      /* display: flex; */
+    }
+    .mid-fruits-align-center h1 {
+      font-size: 82px;
+      font-weight: 400;
+    }
+    .mid-fruits-align-center h3 {
+      font-size: 30px;
+    }
+    .green-font {
+      color: #86ae34;
+    }
+    .pd-content,
+    .article-detail {
+      color: #a5a5a5;
+    }
+    .head-wraper {
+      margin: 10% 15%;
+      float: left;
+      margin-right: 40%;
+    }
+    .head-wraper h1 {
+      line-height: 1em;
+    }
+    .two-col-section {
+      margin: auto;
+    }
+    .two-col-section img {
+      float: left;
+      width: 50%;
+      min-width: 400px;
+      display: inline-block;
+      margin-bottom: 50px;
+    }
+    .three-col-section {
+      margin-bottom: 40px;
+    }
+    .three-col-section .article-part {
+      width: 370px;
+      margin: 15px;
+      box-sizing: border-box;
+    }
+    .three-col-section .title{
+      float: left;
+    }
+    .nine-pd-section .article-part p{
+      width: 370px;
+      margin: 15px;
+      text-align: left;
+    }
+    .ingredient-detail {
+      width: 1200px;
+      margin: auto;
+    }
+    .ingredient-detail article{
+      width: 400px;
+      margin: 15px;
+      box-sizing: border-box;
+      float: left;
+    }
+    .ingredient-detail img {
+      width: 600px;
+      float: left;
+     margin-left: 100px;
+    }
+    .blog-title {
+      margin-top: 1em;
+    }
+    .article-part {
+      text-align: center;
+      box-sizing: border-box;
+      float: left;
+    }
+    /* .article-part h3 {
+      font-size: 20px;
+      margin-bottom: 1em;
+    } */
+    .article-detail {
+      font-size: 10px;
+    }
+    .nav-title {
+      margin: 0 auto;
+    }
+    .nav-category {
+      width: 800px;
+      margin: 0 auto;
+    }
+    .nav-category a {
+      margin: 0 10px;
+      padding: 10px;
+      float: left;
+      display: block;
+    }
+    .testimonials {
+      background: url("assets/asset 39.jpeg") no-repeat;
+      background-size: cover;
+      min-height: 300px;
+      margin-bottom: 20px;
+      padding: 100px;
+      text-align: center;
+      color: #fff;
+    }
+    .testimonials h3 {
+      /* color: #fff; */
+      font-size: 36px;
+      margin-bottom: 15px;
+    }
+    .testimonials img {
+      border: 4px double #fff;
+      border-radius: 50%;
+      display: block;
+      margin: auto;
+      margin-bottom: 1.5em;
+    }
+    .testimonials span {
+      display: block;
+    }
+    span.clients {
+      content: '\e7e5';
+      font-family: serif;
+      margin-bottom: 5px;
+      font-size: 48px;
+      line-height: 1;
+    }
+    cite.clients {
+      display: block;
+    }
+    section.subscribe {
+      text-align: center;
+    }
+    section.subscribe h3 {
+      margin-top: 80px;
+      font-size: 36px;
+    }
+    input.submit {
+      background-color: #86ae34;
+      color: #fff;
+      border: 0;
+      font-size: 16px;
+      padding: 12px;
+      margin-top: 40px;
+    }
+    .article-part input {
+      margin-top: 10px;
+      font-size: 10px;
+      padding: 5px;
+    }
+    input.email {
+      font-size: 16px;
+      padding: 12px;
+      width: 500px;
+    }
+    input.submit:hover {
+    background-color: #1e1d24;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    }
+    footer.sitemap {
+      background: url("assets/asset 41.jpeg") no-repeat;
+      background-size: cover;
+      min-height: 300px;
+      margin-bottom: 20px;
+      padding: 100px;
+    }
+    footer.sitemap .fixed-container {
+      text-align: left;
+    }
+    footer.sitemap article {
+      float: left;
+      width: 270px;
+    }
+    .sitemap h3 {
+      width: 270px;
+      margin-bottom: 1em;
+    }
+    .sitemap ul{
+      list-style-type: none;
+    }
+    a,
+    li {
+      text-decoration: none;
+      color: #a5a5a5;
+    }
+    a:hover {
+      color: #86ae34;
+      transition: 1s;
+    }
+    .clearfix {
+      clear: both;
+    }
+    .pd {
+      width: 300px;
+    }
+    .pd-name {
+      font-size: 12px;
+      font-weight: 400;
+    }
+    .pd img {
+      width: 285px;
+      border: 1px solid #ddd;
+      margin: 10px;
+      display: block;
+      box-sizing: border-box;
+    }
+    .old-price {
+      color: #a5a5a5;
+      text-decoration: line-through;
+      font-size: 12px;
+    }
+    .categorize {
+      font-size: 12px;
+      font-weight: 100;
+    }
+    /* body 的設定是複製自題目網頁 */
+    body {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.7;
+      font-family: sans-serif;
+      letter-spacing: 0em;
+      text-align: left;
+      /* color: #a5a5a5; */
+      color: #4f4f4f;
+    }
+    h1 {
+      font-size: 43px;
+    }
+    h3 {
+      font-family: cursive;
+      /* font-family: Pacifico, handwriting; */
+      line-height: 1em;
+      margin-top: 0.5em;
+      font-size: 24px;
+    }
+    h3.merchan-title {
+      width: 200px;
+      /* padding: 10px; */
+      font-size: 32px;
+      margin: 0 0 40px 10px;
+      text-align: left;
+    }
+    span.date {
+      color: #86ae34;
+    }
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>190327_boxsizing</title>
+  <style>
+    .wrap {
+      width: 960px;
+      margin: auto;
+      background-color: #ffa;
+    }
+
+    .clearfix {
+      width: 100%;
+      clear: both;
+    }
+
+    .item {
+      width: 300px;
+      margin: 10px;
+      padding: 10px;
+      border: 3px double #aaa;
+      box-sizing: border-box;
+      background-color: #fff;
+      float: left;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis facilis id esse laboriosam incidunt dolorem ut ipsum, rerum consequuntur obcaecati. Saepe asperiores consectetur quod, obcaecati modi vel voluptates optio molestias.</div>
+    <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis facilis id esse laboriosam incidunt dolorem ut ipsum, rerum consequuntur obcaecati. Saepe asperiores consectetur quod, obcaecati modi vel voluptates optio molestias</div>
+    <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis facilis id esse laboriosam incidunt dolorem ut ipsum, rerum consequuntur obcaecati. Saepe asperiores consectetur quod, obcaecati modi vel voluptates optio molestias</div>
+    <div class="clearfix"></div>
+  </div>
+</body>
+</html>

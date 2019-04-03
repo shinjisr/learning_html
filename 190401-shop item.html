@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>190401-shop-item</title>
+  <style>
+    .wrap {
+      width: 960px;
+      margin: auto;
+    }
+    .item {
+      width: 298px;
+      margin: 10px;
+      border: 1px solid #fa0;
+      float: left;
+      position: relative;
+    }
+    .item .tag {
+      color: #fff;
+      background-color: #fa0;
+      padding: 2px 4px;
+      position: absolute;
+      margin-left: -5px;
+      top: 10px;
+    }
+    .item .discount {
+      color: #fff;
+      background-color: #fa0;
+      padding: 2px 4px;
+      right: 0px;
+      position: absolute;
+    }
+    .item img {
+      width: 100%;
+    }
+    .picture {
+      width: 100%;
+      height: 200px;
+      position: relative;
+      background: url('https://api.fnkr.net/testimg/350x200/00CED1/FFF/?text=Stay Real');
+    }
+    .favorite {
+      /* width: 100%; */
+      color: #fff;
+      height: 2em;
+      line-height: 2em;
+      padding: 2px 4px;
+      position: absolute;
+      right: 10px;
+      top: 120px;
+      /* bottom: 20px; */
+      background-color: #25a657;
+      display: none;
+    }
+    img:hover + .favorite {
+      display: unset;
+    }
+    .favorite:hover {
+      display: unset;
+    }
+    .txt {
+      padding: 0 10px;
+    }
+    .clearfix {
+      width: 100%;
+      height: 0;
+      clear: both;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="item">
+      <div class="tag">嚴選商品</div>
+      <div class="discount">87折</div>
+      <!-- <div class="picture"> -->
+        <img src="https://api.fnkr.net/testimg/350x200/00CED1/FFF/?text=Stay Real">
+        <div class="favorite">加到我的最愛</div>
+      <!-- </div> -->
+      <div class="txt">
+        <h3>title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ipsum velit hic tenetur provident aspernatur dolore assumenda expedita beatae in.</p>
+      </div>
+    </div>
+    <div class="item">
+      <div class="tag">嚴選商品</div>
+      <div class="discount">87折</div>
+      <img src="https://api.fnkr.net/testimg/350x200/00CED1/FFF/?text=Stay+Real">
+      <div class="txt">
+        <h3>title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur repellendus velit vero ducimus vel nam atque, quasi odio repudiandae ipsam!</p>
+      </div>
+    </div>
+    <div class="item">
+      <div class="tag">嚴選商品</div>
+      <div class="discount">87折</div>
+      <img src="https://api.fnkr.net/testimg/350x200/00CED1/FFF/?text=img+placeholder">
+      <div class="txt">
+        <h3>title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur est dicta eveniet obcaecati facere, totam laborum, labore eum laboriosam repellat.</p>
+      </div>
+
+    </div>
+    <div class="clearfix"></div>
+  </div>
+</body>
+</html>

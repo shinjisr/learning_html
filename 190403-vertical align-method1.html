@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>190403-vertical align-method1</title>
+  <!-- 支援度最高的作法，可以支援到 IE8 -->
+  <style>
+    .fluid {
+      width: 1200px;
+      height: 600px;
+      border: 1px solid #f00;
+      text-align: right;
+      margin: auto;
+    }
+    .xxx {
+      width: 0px;
+      height: 100%;
+      background-color: #aaa;
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .txt {
+      width: 400px;
+      padding: 20px;
+      display: inline-block;
+      vertical-align: middle;
+      background-color: #fa0;
+      text-align: left;
+      margin-right: 50px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="fluid">
+    <div class="xxx"></div>
+      <div class="txt">
+        <h2>title</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem commodi debitis, suscipit explicabo, quo tempore a sed est aut consequatur rem tempora molestiae repudiandae veniam unde ut alias, deleniti similique.</p>
+      </div>
+  </div>
+</body>
+</html>

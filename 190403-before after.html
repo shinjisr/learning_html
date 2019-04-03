@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>190403-before after</title>
+  <style>
+    p {
+      background-color: #aaa;
+      display: inline;
+    }
+    p:before{
+      content: '假的';
+      color: red;
+      /* display: inline; */
+    }
+    p:after{
+      /* display: inline; */
+      content: '假的';
+      color: red;
+    }
+    .wrap {
+      width: 960px;
+      background-color: #f00;
+    }
+    .wrap:after{
+      content: '\5B45';
+      display: block;
+      clear: both;
+    }
+    .item {
+      width: 300px;
+      height: 100px;
+      margin: 10px;
+      background-color: #ffa;
+      float: left;
+    }
+
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <div class="item"></div>
+  <div class="item"></div>
+  <div class="item"></div>
+</div>
+
+  <p>內容</p>
+</body>
+</html>

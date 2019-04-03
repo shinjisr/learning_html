@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>190329-float-amos</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    .fixed-container {
+      width: 1200px;
+      margin: auto;
+    }
+    .wrap1{
+      background-color: #fa0;
+      padding: 40px 0px;
+    }
+    .wrap2{
+      background-color: #af0;
+      padding-top:  40px;
+      padding-bottom: 40px;
+    }
+    .wrap1 .item {
+      width: 570px;
+      height: 100px;
+      margin: 0px 15px;
+      background-color: #aaa;
+      float: left;
+    }
+    .clearfix {
+      clear: both;
+    }
+
+    .wrap2 .item{
+      width: 370px;
+      height: 100px;
+      margin: 0 15px;
+      background-color: #aaa;
+      float: left;
+    }
+
+  </style>
+</head>
+<body>
+    <div class="wrap1">
+      <div class="fixed-container">
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="clearfix"></div>
+    </div>
+    </div>
+
+    <div class="wrap2">
+      <div class="fixed-container">
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</body>
+</html>
