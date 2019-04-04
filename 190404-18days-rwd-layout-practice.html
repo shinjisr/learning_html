@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="viewport" content="content">
+  <title>190404-18days-rwd-layout-practice</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    img {
+      vertical-align: bottom;
+    }
+    .footer {
+      background-color: #333;
+      color: #aaa;
+      text-align: center;
+      padding: 10px 0;
+    }
+    .item-group {
+      width: 100%;
+      max-width: 1400px;
+      margin: auto;
+    }
+    .banner img {
+      width: 100%;
+    }
+    .title{
+      margin: 0 0 20px;
+      padding: 30px 10px;
+      background-color: #ccc;
+    }
+    .title h2 {
+      text-align: center;
+      font-size: 46px;
+    }
+    .title p {
+      font-size: 22px;
+      text-align: center;
+    }
+    .item {
+      width: 1400px;
+      margin: 0 10px 40px;
+    }
+    .item .text h3 {
+      color: red;
+      font-size: 24px;
+      text-align: center;
+    }
+    .item .pic img {
+      width: 100%;
+    }
+    .service {
+      padding: 60px 0;
+      background-color: #ffa;
+    }
+    @media screen and (min-width: 768px){
+      .item-group {
+        display: flex;
+      }
+      .service .item {
+        display: flex;
+      }
+      .service .item .pic,
+      .service .item .text {
+        width: 50%;
+        margin: 0;
+      }
+      .service .item .text {
+        display: flex;
+        padding: 0 20px;
+        box-sizing: border-box;
+        flex-direction: column;
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="banner">
+    <img src="https://picsum.photos/1400/600/?random">
+  </div>
+
+
+  <div class="about">
+    <div class="wrap">
+      <div class="title">
+        <h2>關於我們</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates quibusdam eaque accusantium tenetur sint dignissimos, dolorum aut totam rem libero atque adipisci quas rerum, debitis qui explicabo fuga doloribus animi!</p>
+      </div>
+      <div class="item-group">
+        <div class="item">
+          <div class="pic">
+            <img src="https://picsum.photos/300/200/?random1">
+          </div>
+          <div class="text">
+            <h3>title</h3>
+            <p>歌詞您小心。</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="pic">
+            <img src="https://picsum.photos/300/200/?random1">
+          </div>
+          <div class="text">
+            <h3>title</h3>
+            <p>歌詞強烈文檔答應打擊年度素質古代臨時好好一眼稿件夫妻存儲模組，性感我對四個禮品重量顏，兩位顯示出了把它狀況成本高校商務一定會請大。</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="pic">
+            <img src="https://picsum.photos/300/200/?random1">
+          </div>
+          <div class="text">
+            <h3>title</h3>
+            <p>一把小說簡歷溫柔我要，第二次其實當時招聘咱們好，理由戰士程度下去風景攻，上帝指定時候最大有關幾乎使用，對待三個危機廣播我對玩家開放算是。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="service">
+    <div class="wrap">
+      <div class="item-group">
+        <div class="item">
+          <div class="pic">
+            <img src="https://picsum.photos/300/200/?random">
+          </div>
+          <div class="text">
+            <h3>title</h3>
+            <p>一把小說簡歷溫柔我要，第二次其實當時招聘咱們好，理由戰士程度下去風景攻，上帝指定時候最大有關幾乎使用，對待三個危機廣播我對玩家開放算是。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="about">
+    <div class="wrap">
+      <div class="title">
+        <h2>關於我們</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates quibusdam eaque accusantium tenetur sint dignissimos, dolorum aut totam rem libero atque adipisci quas rerum, debitis qui explicabo fuga doloribus animi!</p>
+      </div>
+      <div class="item-group">
+        <div class="item">
+          <div class="pic">
+            <img src="https://picsum.photos/300/200/?random2">
+          </div>
+          <div class="text">
+            <h3>title</h3>
+            <p>歌詞強烈文檔答應打擊年度素質古代臨時好好一眼稿件夫妻存儲模組，性感我對四個禮品重量顏，兩位顯示出了把它狀況成本高校商務一定會請大家圖片主機相信良好，主流制定激動面前外觀郵件穿著具體呵呵之外歐，您現在不僅裝備教育以上也沒無門性格化學道理不必列，性格更新造成頁面花園威望並沒有顯示器維護昨日是因為具備商，寶寶評分各個小孩怎麼會以下可能，可惜轎車這個大多傳來下載教育活動戰鬥還要天使請您小心。</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="pic">
+            <img src="https://picsum.photos/300/200/?random3">
+          </div>
+          <div class="text">
+            <h3>title</h3>
+            <p>一眼可憐私人領域動態中文版哈爾濱接近可惜，不承擔春天次數做法證書，案例彷彿作戰進行日誌組圖只能最初多少買賣香港製，歌詞大賽回頭自主上午財務經銷商的人，顯得靈活還能區域一家，完了一定別的畢業生侵犯運行環，特徵一座壓力本週信譽用戶名其中網易怎麼辦總統廈門本文進入。</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="pic">
+            <img src="https://picsum.photos/300/200/?random4">
+          </div>
+          <div class="text">
+            <h3>title</h3>
+            <p>一把小說簡歷溫柔我要，第二次其實當時招聘咱們好，理由戰士程度下去風景攻，上帝指定時候最大有關幾乎使用，對待三個危機廣播我對玩家開放算是。</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="pic">
+            <img src="https://picsum.photos/300/200/?random4">
+          </div>
+          <div class="text">
+            <h3>title</h3>
+            <p>一把小說簡歷溫柔我要，第二次其實當時招聘咱們好，理由戰士程度下去風景攻，上帝指定時候最大有關幾乎使用，對待三個危機廣播我對玩家開放算是。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    &copy; copyright 2019 by Steven
+  </div>
+</body>
