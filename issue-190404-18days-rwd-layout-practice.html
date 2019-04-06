@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<!-- Flex align problem have been solved by add box-sizing attribute in ".item".
+
+Just remain this isseu for later review.-->
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -46,9 +49,8 @@
       width: 100%;
 
       /* ==== 在這邊加入左右的 margin 會導致無法對齊的留白區域 ==== */
-      margin: 10px auto;
-      padding: 10px;
-      box-sizing: border-box;
+
+      margin: 0 40px auto;
     }
     .item .text h3 {
       color: red;
@@ -102,17 +104,15 @@
     .logo {
       width: 60px;
       height: 50px;
-      padding: 5px;
       margin-left: 10px;
     }
     .logo a {
       display: block;
-      height: 40px;
+      height: 50px;
     }
     .logo img {
       /* vertical-align: bottom; */
       display: block;
-      width: 100%;
     }
     .menu_btn {
       width: 40px;
