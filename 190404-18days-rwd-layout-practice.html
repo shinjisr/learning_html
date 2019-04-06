@@ -51,6 +51,10 @@
       font-size: 24px;
       text-align: center;
     }
+    .item .text p {
+      color: red;
+      text-align: justify;
+    }
     .item .pic img {
       width: 100%;
     }
@@ -133,15 +137,6 @@
       box-shadow: 0 10px 0 #aaa,
                   0 -10px 0 #aaa;
     }
-    nav {
-      width: 80%;
-      height: calc(100vh - 5px);
-      background-color: #282923;
-      position: absolute;
-      top: 50px;
-      left: -100%;
-      transition: 0.5s;
-    }
     nav a {
       display: block;
       text-decoration: none;
@@ -152,7 +147,17 @@
     #menu_control:checked ~ .header nav {
       left: 0;
     }
-
+    @media screen and (max-width:767px){
+      nav{
+        width: 80%;
+        height: calc(100vh - 5px);
+        background-color: #282923;
+        position: absolute;
+        top: 50px;
+        left: -100%;
+        transition: 0.5s;
+      }
+    }
     @media screen and (min-width:768px){
       .menu_btn { display: none; }
       .header {
@@ -222,7 +227,7 @@
             <img src="https://picsum.photos/300/200/?random1">
           </div>
           <div class="text">
-            <h3>title</h3>
+            <h3>item 1 title</h3>
             <p>歌詞您小心。</p>
           </div>
         </div>
