@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .menu {
+      font-size: 0;
+      background-color: #999;
+    }
+    .menu li {
+      display: inline-block;
+      background-color: #ccc;
+    }
+    .menu a {
+      display: block;
+      padding: 0 10px;
+      line-height: 80px;
+      font-size: 16px;
+      text-decoration: none;
+      position: relative;
+    }
+    .menu a:hover{
+      background-color: #0af;
+    }
+    .menu a:after{
+      content: '';
+      display: block;
+      width: 0;
+      height: 4px;
+      background-color: #f00;
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      transition: .3s;
+    }
+    .menu a:hover::after {
+      width: 100%;
+    }
+    .menu li + li {
+      border-left: 2px solid #faa;
+    }
+    /* .menu li + li:hover { */
+      /* border-bottom: 2px solid #faa; */
+    /* } */
+  </style>
+</head>
+<body>
+  <ul class="menu">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Service</a></li>
+    <li><a href="#">Product</a></li>
+    <li><a href="#">Contact</a></li>
+    <!-- <li><a href="#">link</a></li> -->
+  </ul>
+  <h1>title</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi facere distinctio praesentium repudiandae, possimus explicabo suscipit enim sint ut id.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi facere distinctio praesentium repudiandae, possimus explicabo suscipit enim sint ut id.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi facere distinctio praesentium repudiandae, possimus explicabo suscipit enim sint ut id.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi facere distinctio praesentium repudiandae, possimus explicabo suscipit enim sint ut id.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi facere distinctio praesentium repudiandae, possimus explicabo suscipit enim sint ut id.</p>
+  <h2>title2</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, optio reiciendis? Quibusdam vitae doloribus ratione eveniet nemo vero neque illo!</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, optio reiciendis? Quibusdam vitae doloribus ratione eveniet nemo vero neque illo!</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, optio reiciendis? Quibusdam vitae doloribus ratione eveniet nemo vero neque illo!</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, optio reiciendis? Quibusdam vitae doloribus ratione eveniet nemo vero neque illo!</p>
+</body>
+</html>
