@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <title>Document</title>
+   <style>
+     .wrap {
+      width: 960px;
+      margin: auto;
+      border: 1px solid #f00;
+     }
+     .wrap:after{
+      content: '';
+      display: block;
+      clear: both;
+     }
+     .item {
+      width: 300px;
+      height: 100px;
+      float: left;
+      background-color: #ccc;
+      font-size: 50px;
+      text-align: center;
+      margin-bottom: 30px;
+      margin-left: 30px;
+     }
+     .item:nth-child(3n+1) {
+      margin-left: 0;
+      clear: left;
+     }
+     .item2 {
+      height: 200px;
+     }
+   </style>
+ </head>
+ <body>
+   <div class="wrap">
+     <div class="item item1">1</div>
+     <div class="item item2">2</div>
+     <div class="item item3">3</div>
+     <div class="item item4">4</div>
+     <div class="item item5">5</div>
+     <div class="item item6">6</div>
+     <div class="item item7">7</div>
+     <div class="item item8">8</div>
+   </div>
+ </body>
+ </html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>190408-pseudo-class-selector</title>
+  <style>
+    /* 篩選條件1:篩選條件(pseudo) */
+    /* 選取第一個子物件 */
+    .box :first-child{
+      color: red;
+    }
+    /* 選取 box 底下所有類別的第二個子物件 */
+    .box :nth-of-type(2) {
+      color: dodgerblue;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <div>div</div>
+    <span>span</span>
+    <h1>h1</h1>
+    <div>div</div>
+    <span>span</span>
+    <div></div>
+    <h2>h2</h2>
+    <span>span</span>
+    <div>div</div>
+    <span>span</span>
+    <div>div</div>
+    <h1>h1</h1>
+    <span>span</span>
+    <div>div</div>
+  </div>
+</body>
+</html>

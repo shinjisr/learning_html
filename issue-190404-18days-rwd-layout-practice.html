@@ -46,11 +46,12 @@ Just remain this isseu for later review.-->
     }
     .item {
       /* width: 1400px; */
-      width: 100%;
+      width: 100% - 40px;
 
       /* ==== 在這邊加入左右的 margin 會導致無法對齊的留白區域 ==== */
 
-      margin: 0 40px auto;
+      margin: 0 40px;
+      box-sizing: border-box;
     }
     .item .text h3 {
       color: red;
