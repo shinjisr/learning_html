@@ -7,7 +7,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-
+    <!-- testing font awesome icon 190409-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"></link>
     <title>bootstrap</title>
     <style>
       .aa { background-color: #faa; background-image: url('') }
@@ -16,9 +17,28 @@
       .item .img-fluid {
         width: 100%;
       }
+      .headline1:before {
+        content: "\f041";
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: inherit;
+    /*--adjust as necessary--*/
+        color: #000;
+        font-size: 18px;
+        padding-right: 0.5em;
+        position: absolute;
+        top: 10px;
+        left: 0;
+}
     </style>
   </head>
   <body>
+    <i class="fa fa-camera-retro"></i>
+    <h1 class="headline">this is bootstrap</h1>
+    <div class="head-out">
+      <p class="headline1">this is bootstrap</p>
+    </div>
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-4">
