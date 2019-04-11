@@ -43,21 +43,43 @@
     .icon-wrap span {
       display: block;
     }
+    .icon {
+      font-family: FontAwesome;
+    }
     .span-address:before {
       content: '\f041';
+
+      color: #47e7ff;
+      font-size: 1em;
+    }
+    .span-email:before {
+      content: "\ed3e";
+      color: #47e7ff;
+      font-size: 1em;
+    }
+    .span-phone:before {
+      content: "\f2a0";
       color: #47e7ff;
       font-size: 1em;
     }
     form > input:not(.submit),
     .msg{
+      color: #fff;
       background-color: transparent;
       width: 100%;
       padding: 10px;
+      border: 0;
       border-bottom: 1px solid #fff;
     }
     .submit {
+      font-size: 10px;
+      letter-spacing: 1px;
       color: #fff;
-      background-color: #20252a;
+      background-color: #1767fc;
+      border: 0;
+      border-radius: 30px;
+      padding: 7px 14px;
+      margin: 20px;
     }
   </style>
 </head>
@@ -80,7 +102,7 @@
       <form action="" method="get" accept-charset="utf-8">
         <input class="" type="name" name="name" placeholder="Name*">
         <input class="" type="email" name="email" placeholder="E-mail*">
-        <textarea class="msg"name="message" placeholder="Message"></textarea>
+        <textarea class="msg" name="message" placeholder="Message"></textarea>
         <input class="submit" type="submit" value="SEND MESSAGE">
       </form>
     </div>
