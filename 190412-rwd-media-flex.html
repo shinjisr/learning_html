@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .wrap {
+      width: 90%;
+      max-width: 1200px;
+      border: 1px solid #00f;
+      margin: auto;
+      /* display: flex; */
+    }
+
+    .item {
+      /* width: 30.83333%; */
+      /* width: 97.5%; */
+      height: 200px;
+      background-color: #f00;
+      margin: 15px 1.25%;
+      /* font-size: 100px; */
+    }
+    .item1 {
+      background-color: #faa;
+      /* width: 460px; */
+      /* flex-shrink: 1; */
+    }
+    .item2 {
+      background-color: #afa;
+      /* width: 520px; */
+      /* flex-shrink: 2; */
+    }
+    .item3 {
+      background-color: #aaf;
+      /* width: 620px; */
+      /* flex-shrink: 3; */
+    }
+    .item4 {
+      background-color: #faf;
+    }
+    .item5 {
+      background-color: #ffa;
+    }
+    .item6 {
+      background-color: #aef;
+    }
+    .item7 {
+      background-color: #eaa;
+    }
+    .item8 {
+      background-color: #efe;
+    }
+    .item9 {
+      color: #fff;
+      background-color: #555;
+    }
+
+    /* @media screen and (min-width:1000px) and (max-width:1200px) { */
+
+    /* 大於等於 768px 時，呈現桌機畫面 */
+    @media screen and (min-width:768px) {
+      /* .wrap:after {
+        content: '';
+        display: block;
+        clear: both;
+      } */
+      .wrap{
+        display: flex;
+        flex-flow: row wrap;
+      }
+      .item{
+        background-color: #00f;
+        width: 30.83333%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="item item1">1</div>
+      <div class="item item2">2 </div>
+      <div class="item item3">3 </div>
+      <div class="item item3">3 </div>
+      <div class="item item3">3 </div>
+  </div>
+</body>
+</html>
