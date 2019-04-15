@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .wrap {
+      width: 1200px;
+      height: 380px;
+      background-color: #ccc;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      /* align-content: center; */
+    }
+    .box {
+      width: 50%;
+      height: 0;
+      padding-bottom: 56%;
+      /* padding-top: 30%; */
+      /* background-color: #fa0; */
+      overflow: auto;
+      position: relative;
+    }
+
+    .media {
+      position: absolute;
+      top: 0px;
+      bottom: 0px;
+      left: 0px;
+      right: 0px;
+      /* padding: 30px; */
+      /* background-color: #aff; */
+      /* overflow: auto; */
+      /* border-radius: 50%; */
+    }
+    .txt {
+      width: 50%;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="box">
+      <div class="media">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/0TI8rr4PmEI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+  </div>
+</body>
+</html>

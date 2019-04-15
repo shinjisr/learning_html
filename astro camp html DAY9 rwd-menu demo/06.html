@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		.wrap{
+			width: 100%;
+			max-width: 1200px;
+			margin: auto;
+			display: flex;
+		}
+		.col{
+			width: 50%;
+		}
+		.mv-content{
+			width: 100%;
+			height: 0;
+			padding-bottom: 56.25%;
+			position: relative;
+		}
+		.mv-content iframe{
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+
+
+		.txt{
+			display: flex;
+			align-items: center;
+		}
+		.txt-content{
+			padding: 30px;
+		}
+
+		@media screen and (max-width: 767px) {
+			.wrap{
+				flex-wrap: wrap;
+			}
+			.wrap .col{
+				width: 100%;
+			}
+		}
+	</style>
+</head>
+<body>
+	
+
+	<div class="wrap">
+		<div class="col mv">
+			<div class="mv-content">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/u0vSy0Fyt3s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</div>
+		<div class="col txt">
+			<div class="txt-content">
+				<h3>title</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est commodi perspiciatis placeat impedit eaque reiciendis similique fuga explicabo doloribus aliquid.</p>
+			</div>
+		</div>
+	</div>
+
+
+
+</body>
+</html>

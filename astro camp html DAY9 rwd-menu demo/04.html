@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Document</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+		@media screen and (max-width: 767px){
+			body{
+				padding-top: 70px;
+			}
+		}
+		#menuControl{
+			position: absolute;
+			z-index: -1;
+			opacity: 0;
+		}
+		.mainHeader{
+			z-index: 6;
+		}
+		@media screen and (max-width: 767px){
+			.mainHeader{
+				position: fixed;
+				top: 0;
+				height: 60px;
+				width: 100%;
+				background-color: #fa0;
+			}
+		}
+		@media screen and (min-width: 768px){
+			.mainHeader{
+				float: left;
+				position: relative;
+			}
+		}
+		.hb{
+			display: none;
+		}
+		@media screen and (max-width: 767px){
+			.hb{
+				display: block;
+				position: absolute;
+				width: 40px;
+				height: 40px;
+				top: 10px;
+				right: 10px;
+				background-color: #000;
+			}
+		}
+		nav{
+			background-color: rgba(0,0,0,.5);
+		}
+		@media screen and (max-width: 767px){
+			nav{
+				position: fixed;
+				width: 90%;
+				height: calc(100% - 60px);
+				top: 60px;
+				transform: translateX(-100%);
+				transition: transform .5s;
+			}
+		}
+		#menuControl:checked ~ nav{
+			transform: translateX(0%);
+		}
+		nav a{
+			display: block;
+			padding: 10px 20px;
+			color: #fff;
+			text-decoration: none;
+			border-bottom: 1px solid #fff;
+		}
+
+		@media screen and (min-width: 768px){
+			nav{
+				position: relative;
+				text-align: center;
+			}
+			nav a{
+				display: inline-block;
+			}
+		}
+	</style>
+</head>
+<body>
+	
+
+<input type="checkbox" name="" id="menuControl">
+
+
+<div class="mainHeader">
+	<div class="logo">
+		<img src="https://picsum.photos/100/40?random=1" alt="圖片說明">
+	</div>
+	<label class="hb" for="menuControl"></label>
+</div>
+<nav>
+	<a href="#">link</a>
+	<a href="#">link</a>
+	<a href="#">link</a>
+	<a href="#">link</a>
+	<a href="#">link</a>
+	<a href="#">link</a>
+</nav>
+
+
+
+
+
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste unde facilis incidunt voluptates facere, soluta, repellat doloribus. Eveniet et expedita, consectetur excepturi recusandae, accusantium, alias, ad voluptas vel similique minima?</p>
+<p>Velit quam quidem qui earum, perferendis laborum, officia aspernatur eos iusto, consequuntur recusandae officiis assumenda dolorem deserunt deleniti unde, non. Necessitatibus corporis soluta laborum a repellat eaque hic recusandae consequuntur?</p>
+<p>Nobis qui corporis velit repellat blanditiis aut mollitia, inventore, excepturi nemo similique aliquam consectetur labore nisi ullam. Soluta, eius voluptatibus inventore atque tempore quaerat aut, libero nihil, error quo debitis!</p>
+<p>Libero quo autem deleniti quos quis nam aperiam doloribus eius quisquam quasi nostrum, sed explicabo fugit, odit nisi beatae! Voluptates provident tempore placeat, libero architecto doloribus excepturi voluptas esse tempora!</p>
+<p>Dolore ea maxime quasi repellat adipisci amet cumque fugiat qui blanditiis. Sint beatae, voluptates earum modi dolorum delectus quae dolorem officia, culpa reprehenderit nihil facere ducimus impedit cumque voluptatum doloremque.</p>
+<p>Ullam dolore omnis, quae obcaecati reiciendis quam illo doloremque quibusdam aliquam? Iste deleniti sed fugiat dolor amet aliquam alias minima, inventore. Esse laborum amet ipsam impedit veniam, doloribus repudiandae deserunt.</p>
+<p>Earum cupiditate nam deleniti, consectetur corrupti molestias ex non dicta, iste doloribus, ipsum expedita ratione. Amet maxime laboriosam, repudiandae cum qui sit voluptates officia quas voluptatum voluptate fuga totam, culpa!</p>
+<p>Fugiat ullam, unde quam tempore cupiditate possimus rerum ex atque, molestias omnis illo commodi delectus necessitatibus labore ipsum ducimus quasi, fugit similique laborum! Tenetur molestias amet voluptatem, minima porro explicabo!</p>
+<p>Quis placeat velit nobis officiis nostrum repellat vero consequatur cupiditate cum fugit aspernatur sunt atque, reprehenderit ullam eum iure, harum? Molestias at nostrum expedita, ab maiores vero esse, facere maxime.</p>
+<p>Aliquam reprehenderit, accusantium est labore, ipsam dolor a animi provident necessitatibus, officiis asperiores, atque porro. Cum voluptates repudiandae illum quo doloremque error et distinctio, ipsum, voluptatem dolor corporis. Quis, porro.</p>
+<p>Id maiores quod debitis aliquid ut, unde incidunt ratione enim maxime sed similique, magni dolorem eius tenetur quasi. Totam ex iste, molestiae blanditiis libero, numquam iusto impedit quisquam possimus ducimus!</p>
+<p>Quis sunt, dolores officia iure porro ab non esse, commodi ipsam. Laborum assumenda incidunt ad unde ex et magnam cum ut repudiandae provident, quos vero, perspiciatis, sapiente ratione nesciunt iure!</p>
+<p>Temporibus saepe, odio assumenda alias quibusdam similique velit mollitia. Dolore saepe, et consequatur expedita, fugiat ipsam animi commodi accusamus voluptate molestias tenetur deleniti dignissimos voluptatum eum nobis assumenda recusandae voluptas!</p>
+<p>Nesciunt dolorem ipsam placeat quos assumenda at debitis dolorum, alias tenetur mollitia laudantium, fuga asperiores facilis voluptates vel perferendis quidem eligendi consequuntur atque non et. Eligendi qui, repellendus cupiditate minima!</p>
+<p>Eius saepe distinctio at possimus recusandae beatae facere eos id, officiis quaerat cupiditate, ducimus, maiores? Explicabo placeat pariatur magnam nobis vero fugit. Aperiam fugit esse perferendis fugiat officiis nisi, officia!</p>
+<p>Cumque veniam exercitationem, quis dignissimos sunt voluptas facere accusamus eum magni! Eos distinctio obcaecati, adipisci cum qui. Voluptatibus facere, ut corporis repudiandae tenetur. Autem fugit quibusdam earum sit, suscipit ratione!</p>
+<p>Quisquam, vero minus fugiat sint culpa. Distinctio doloremque aliquid, repellendus ratione saepe laborum, omnis vel ipsum at itaque rem alias inventore modi iste sunt, doloribus fugit voluptas error laudantium repudiandae.</p>
+<p>Labore dicta voluptatibus reiciendis voluptatem animi cum quia sit, doloribus consequuntur molestias, laborum cupiditate quos distinctio blanditiis enim dolorem voluptate ratione quo voluptatum sunt pariatur. Perspiciatis neque aperiam veniam eius.</p>
+<p>Officiis amet vitae omnis. Deserunt debitis, facilis vitae ut dignissimos odit dolor aperiam, expedita aspernatur distinctio nesciunt architecto quae cum vero, sunt perspiciatis reprehenderit. Rerum eaque quasi, necessitatibus maxime dignissimos.</p>
+<p>Est beatae sint molestias consequuntur, illum excepturi expedita dolorem similique optio saepe deleniti, nulla laudantium esse eum tenetur temporibus recusandae! Voluptate maxime, doloribus commodi quibusdam a ullam at aliquam, ipsa?</p>
+
+</body>
+</html>
