@@ -192,8 +192,10 @@ div[class=^col-] {
 .pd-content {
   text-align: justify;
 }
-.big-pic {
+.big-pic .col-md-6{
   /* justify-content: space-between; */
+/*   padding-left: 0;
+  padding-right: 0; */
 }
 .big-pic img {
   display: block;
